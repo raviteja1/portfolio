@@ -1,0 +1,33 @@
+{
+    "name": "Your Name — Software & AI Engineer",
+    "short_name": "YN Portfolio",
+    "description": "Senior Software Engineer, AI Engineer, and Module Lead portfolio.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#08090a",
+    "theme_color": "#08090a",
+    "categories": ["business", "productivity", "developer"],
+    "icons": [
+      {
+        "src": "/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/maskable-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ]
+  }
+  
