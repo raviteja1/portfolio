@@ -31,8 +31,7 @@ import {
 const PROFILE_LINKS = {
   aiDemo: 'https://aravi-ai.vercel.app/',
   github: 'https://github.com/raviteja1',
-  linkedin: 'https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME', // Replace with your LinkedIn profile URL.
-  email: 'mailto:raviteja.t111@gmail.com', // Replace with your email address.
+  linkedin: 'https://www.linkedin.com/in/raviteja-t-38167667',  email: 'mailto:raviteja.t111@gmail.com', // Replace with your email address.
 };
 
 const skillGroups = [
