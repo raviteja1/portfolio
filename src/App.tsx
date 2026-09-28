@@ -31,7 +31,8 @@ import {
 const PROFILE_LINKS = {
   aiDemo: 'https://aravi-ai.vercel.app/',
   github: 'https://github.com/raviteja1',
-  linkedin: 'https://www.linkedin.com/in/raviteja-t-38167667',  email: 'mailto:raviteja.t111@gmail.com', // Replace with your email address.
+  linkedin: 'https://www.linkedin.com/in/raviteja-t-38167667', // Replace with your LinkedIn profile URL.
+  email: 'mailto:raviteja.t111@gmail.com', // Replace with your email address.
 };
 
 const skillGroups = [
@@ -318,7 +319,7 @@ function OpeningSequence({ onDone }: { onDone: () => void }) {
         </span>
       </span>
       <span className="opening__wordmark">
-        RAVITEJA<span>.</span>
+        Raviteja<span>.</span>
       </span>
     </button>
   );
@@ -344,9 +345,9 @@ function ExperienceItem({
       </div>
       <div className="experience-card__body">
         <div className="experience-card__meta">
-          <span>CLIENT</span>
+          <span>Client</span>
           <strong>{item.client}</strong>
-          <span>PROJECT</span>
+          <span>Project</span>
           <strong>{item.project}</strong>
         </div>
         <p>{item.summary}</p>
@@ -490,7 +491,7 @@ export default function App() {
         className={`site-header ${menuOpen ? 'site-header--menu-open' : ''}`}
       >
         <a className="brand" href="#top" aria-label="Your Name — home">
-          raviteja<span>.</span>
+          Raviteja<span>.</span>
         </a>
         <nav
           className={`nav ${menuOpen ? 'nav--open' : ''}`}
@@ -553,8 +554,8 @@ export default function App() {
               Hi there <span>👋</span> I’m
             </p>
             <h1>
-              <span>RAVI TEJA</span>
-              <strong>React AI Engineer</strong>
+              <span>Ravi Teja</span>
+              <strong>AI Engineer</strong>
             </h1>
             <p className="hero__role">
               Senior Software Engineer <i>/</i> AI Engineer <i>/</i> Module Lead
@@ -993,7 +994,7 @@ export default function App() {
             <a className="brand" href="#top">
               raviteja<span>.</span>
             </a>
-            <span>© 2026 RAVITEJA · BUILT WITH REACT + TYPESCRIPT</span>
+            <span>© 2026 Raviteja · Built with React + TypeScript</span>
             <a href="#top">
               BACK TO TOP <ArrowUpRight />
             </a>
